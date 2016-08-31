@@ -1,2 +1,3 @@
 # CodeLouisville
-Repo for any and all Code Louisville work
+### Repo for Code Louisville PROJECT
+

@@ -1,3 +1,3 @@
 # CodeLouisville
-### Repo for Code Louisville PROJECT
+### Repo for Code Louisville project
 

@@ -18,16 +18,16 @@ a {
 }
 
 header {
-  background: #203731;
+  background: #fff;
 
 }
 
-h1, h2 {
+h1 {
   color: #fff;
 }
 
 nav {
-  background: #FFB612;
+  background: #8bae4c;
 }
 
 nav a, nav a:visited {
@@ -35,9 +35,12 @@ nav a, nav a:visited {
 }
 
 nav a.selected, nav a:hover {
-  color: #203731;
+  color: #678334;
 }
 
 body {
    background-color: #fff;
+}
+
+nav ul{
 }

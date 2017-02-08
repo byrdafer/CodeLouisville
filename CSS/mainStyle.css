@@ -1,6 +1,6 @@
-/***** DOM Styles *****/
+/***** BASE ELEMENT Styles *****/
 header {
-  background-image: url('../IMG/healthyEating.jpg');
+  background-image: url(../IMG/healthyEating.jpg) no-repeat center center;
 }
 
 a {
@@ -15,16 +15,15 @@ li {
 h1 {
   color: #1f4287;
 }
-
-body {
-/*   background-color: #fff;*/
+h2 {
+  color: #00788c;
 }
 
 
 
-/***** NAVIGATION *****/
+/***** NAVIGATION Styles *****/
 nav {
-  background: #8bae4c;
+  background: #799a3d;
 }
 
 nav a, nav a:visited {
@@ -32,7 +31,7 @@ nav a, nav a:visited {
 }
 
 nav a.selected, nav a:hover {
-  color: #678334;
+  color: #1f4287;
 }
 
 .navigation {

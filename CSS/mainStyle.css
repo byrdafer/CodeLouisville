@@ -1,31 +1,28 @@
+/***** DOM Styles *****/
+header {
+  background-image: url('../IMG/healthyEating.jpg');
+}
+
 a {
   text-decoration: none;
-}
-
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-}
-
-#logo {
-  text-align: center;
-  margin: 0;
-}
-
-a {
   color: #6ab47b;
 }
 
-header {
-  background: #fff;
-
+li {
+  text-decoration: none;
 }
 
 h1 {
-  color: #fff;
+  color: #1f4287;
 }
 
+body {
+/*   background-color: #fff;*/
+}
+
+
+
+/***** NAVIGATION *****/
 nav {
   background: #8bae4c;
 }
@@ -38,9 +35,19 @@ nav a.selected, nav a:hover {
   color: #678334;
 }
 
-body {
-   background-color: #fff;
+.navigation {
+  display: flex;
+  justify-content: space-around;
 }
 
-nav ul{
+/***** ID tag styles *****/
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
 }

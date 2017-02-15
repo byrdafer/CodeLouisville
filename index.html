@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-   <head> <!-- this is stuff for the browser to run page and content in the top bar of the window  -->
+   <head> <!-- this is stuff for the browser needs to run page and content displayed in the top bar of the window  -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -13,31 +13,31 @@
 
    <body> <!-- This is where the page content goes -->
 
-      <header class="topper"> <!-- The header, duh -->
+      <header class="topper"> <!-- The header, at the top of the content...  -->
 
-        <div class="Nameplate">
+        <!--  <img class="largeLogo" src="">  JCPS logo -->
 
-          <img class="largeLogo" url()> <!-- JCPS logo -->
+        <div  class="navigation">
 
-          <a class="homeButton" href="index.html"> <!-- This creates a "home button" out of the header content -->
-            <h2>Jefferson County Public Schools</h2>
-            <h3>School and Community Nutrition Services</h3>
-            <h4>Christopher Byrd | Executive Chef</h4>
-          </a>
+            <a class="homeButton" href="index.html"> <!-- This creates a "home button" out of the header content -->
+                <h2>Jefferson County Public Schools</h2>
+                <h3>School and Community Nutrition Services</h3>
+                <h4>Christopher Byrd | Executive Chef</h4>
+            </a>
+
+            <nav> <!-- This is the main nav bar that will run on all pages -->
+                <ul style="list-style: none;">
+                  <li><a href="index.html" class="selected">Home</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <!--- <li><a href="interactive.html">"Fun & Games"</a></li>  This can become active when activities or games are found/created relevant to work.  --->
+                </ul>
+            </nav>
+
+            <button type="button" >Chef Services</button> <!-- link to HTML form -->
 
         </div>
 
-        <nav> <!-- This is the main nav bar that will run on all pages -->
-            <ul style="list-style: none;" class="navigation">
-              <li><a href="index.html" class="selected">Home</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <!--- <li><a href="Interactive.html">"Fun & Games"</a></li>  This can become active when activities or games are found/created relevant to work.  --->
-            </ul>
-        </nav>
-
-        <b>Chef Services</b> <!-- link to HTML form -->
-
-      </header>
+      </header> <!-- Ends top of site section -->
 
       <section>
 
@@ -45,14 +45,14 @@
 
       </section>
 
-      <footer>
+      <footer> <!-- This is where bottom of the site info goes -->
 
          <p>&copy; 2017 Christopher Byrd.</p>
 
       </footer>
 
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> <!-- This is here so the page loads faster -->
-   </body>
+   </body> <!--Closes content -->
 
 
-</html>
+</html> <!-- Ends code -->

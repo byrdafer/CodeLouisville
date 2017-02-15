@@ -1,6 +1,8 @@
 /***** HTML ELEMENT Styles *****/
-header {
-  background-image: url(../IMG/healthyEating.jpg) no-repeat center center;
+.topper {
+  background-image: url(../IMG/healthyEating.jpg);
+  background-size: cover;
+
 }
 
 a {
@@ -36,7 +38,8 @@ nav a.selected, nav a:hover {
 
 .navigation {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /***** ID tag styles *****/

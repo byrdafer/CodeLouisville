@@ -1,8 +1,7 @@
 /***** HTML ELEMENT Styles *****/
 .topper {
-  background-image: url(../IMG/healthyEating.jpg);
-  background-size: cover;
-
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -19,6 +18,11 @@ h1 {
 }
 h2 {
   color: #00788c;
+}
+
+header {
+  background-image: url(../IMG/healthyEating.jpg);
+  background-size: cover;
 }
 
 
@@ -38,9 +42,11 @@ nav a.selected, nav a:hover {
 
 .navigation {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
+  flex-grow: 2;
+
 }
+
 
 /***** ID tag styles *****/
 #wrapper {
@@ -52,4 +58,15 @@ nav a.selected, nav a:hover {
 #logo {
   text-align: center;
   margin: 0;
+}
+
+
+/*********************** MEDIA QUERIES ******************************/
+@media min-width 769 px {
+
+}
+
+
+@media min-width 1025 px {
+
 }

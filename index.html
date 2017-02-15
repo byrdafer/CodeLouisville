@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
       <meta name="author" content="JCPS">
       <title>JCPS | Chef Services</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> <!-- This link is so I don't have to host bootsrtap, and functionality updates are automatically applied -->
       <link href="CSS/it-bootstrap.css" rel="stylesheet"> <!-- JCPS style -->
       <link href="CSS/mainStyle.css" rel="stylesheet"> <!-- My style -->
@@ -13,17 +14,21 @@
 
    <body> <!-- This is where the page content goes -->
 
-      <header class="topper"> <!-- The header, at the top of the content...  -->
+      <header> <!-- The header, at the top of the content...  -->
 
-        <!--  <img class="largeLogo" src="">  JCPS logo -->
+          <div class="topper">
 
-        <div  class="navigation">
+            <img class="logo" src="IMG/JCPSlogo.png">
 
             <a class="homeButton" href="index.html"> <!-- This creates a "home button" out of the header content -->
                 <h2>Jefferson County Public Schools</h2>
                 <h3>School and Community Nutrition Services</h3>
                 <h4>Christopher Byrd | Executive Chef</h4>
             </a>
+
+          </div>
+
+          <div class="navigation">
 
             <nav> <!-- This is the main nav bar that will run on all pages -->
                 <ul style="list-style: none;">
@@ -35,7 +40,7 @@
 
             <button type="button" >Chef Services</button> <!-- link to HTML form -->
 
-        </div>
+          </div>
 
       </header> <!-- Ends top of site section -->
 

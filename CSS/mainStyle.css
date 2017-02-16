@@ -1,7 +1,12 @@
 /***** HTML ELEMENT Styles *****/
 .topper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;;
+}
+
+.bar {
+  display: flex;
+
 }
 
 a {
@@ -20,11 +25,23 @@ h2 {
   color: #00788c;
 }
 
-header {
+h3,
+h4,
+h5 {
+  color: #d0202e;
+}
+
+.topper {
+  display: flex;
+  flex-grow: 1;
   background-image: url(../IMG/healthyEating.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
+.homeButton {
+  justify-content: flex-start;;
+}
 
 
 /***** NAVIGATION Styles *****/
@@ -42,7 +59,7 @@ nav a.selected, nav a:hover {
 
 .navigation {
   display: flex;
-  justify-content: flex-end;
+
   flex-grow: 2;
 
 }
